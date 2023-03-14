@@ -1,0 +1,26 @@
+.input-container {
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+}
+
+.input-component label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 2rem;
+}
+
+.input-component input {
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.input-component svg {
+  font-size: 2.2rem;
+  vertical-align: middle;
+  margin-bottom: 0.4rem;
+}

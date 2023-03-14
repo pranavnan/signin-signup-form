@@ -1,0 +1,61 @@
+.users-lists {
+  background-color: #ba9bc1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 2.4rem;
+  align-items: center;
+}
+
+.greeting {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.navbar button {
+  background-color: #753682;
+  color: #fff;
+}
+
+.navbar button:hover {
+  background-color: #915e9b;
+  color: #fff;
+}
+
+.data-table {
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.table-head th {
+  font-size: 2rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.table-body {
+  font-size: 1.8rem;
+}
+
+.table-body td {
+  padding: 1rem 2rem;
+}
+
+.table-body tr:nth-child(even) {
+  background-color: #c8afcd;
+}
+.table-body tr:nth-child(odd) {
+  /* background-color: #c8afcd; */
+  /* color: #fff; */
+}
+
+@media (max-width: 600px) {
+  .data-table {
+    font-size: 40%;
+  }
+  .navbar {
+    width: 130%;
+    background-color: #ba9bc1;
+  }
+}
